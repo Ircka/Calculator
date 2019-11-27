@@ -15,7 +15,7 @@ public class Calculator {
     }
 
     public char getOperation() {
-        System.out.println("Введите требуемую операцию. Доступны: + - х %");
+        System.out.println("Введите требуемую операцию. Доступны: + - х % ");
         char tryOperation = scan.next().charAt(0); // тут вводиться может несколько символов, а проверяет первый, не айс
         char operation;
         if (checkOperation(tryOperation)) {
